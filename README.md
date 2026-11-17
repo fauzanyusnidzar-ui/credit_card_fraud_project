@@ -1,6 +1,6 @@
 # Fraud Early Warning System
 
-Aplikasi Streamlit untuk memberi skor risiko fraud pada transaksi kartu kredit, memakai model **LightGBM** dari notebook `cc_fraud_project_perbaikan.ipynb`.
+Aplikasi Streamlit untuk memberi skor risiko fraud pada transaksi kartu kredit, memakai model **LightGBM** dari notebook `cc_fraud_project.ipynb`.
 
 - **Threshold default 0,15** (pengaturan Seimbang): recall ±63%, ±40 alert per hari per 100.000 transaksi/tahun
 - Skor ≥ 0,50: tahan dan telepon segera · 0,15–0,50: tahan dan konfirmasi SMS/aplikasi · < 0,15: setujui
